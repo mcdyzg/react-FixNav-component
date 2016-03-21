@@ -23,8 +23,8 @@ var Header = React.createClass({
   render: function() {
     return (
       <FixNav
-		height=65   //nessesary   the height of nav
-		offset=500  //nessesary   when window.scrollTop>offset,the component hide
+		height=65   //necessary   the height of nav
+		offset=500  //necessary   when window.scrollTop>offset,the component hide
 		id='fixnav'
 		className='fixnav'>
       </FixNav>
